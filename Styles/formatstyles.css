@@ -1,9 +1,8 @@
 .center {
     display: flex;
     justify-content: center;
-    margin-top: 50%;
+    margin-top: 20%;
     width: 100%;
     font-weight: bold;
     font-family: 'Montserrat';
-    background-color: white;
 }
