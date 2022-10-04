@@ -6,3 +6,32 @@
     font-weight: bold;
     font-family: 'Montserrat';
 }
+
+.gradient-move {
+    background: linear-gradient(204deg, #999999, #000000, #a1a1a1);
+    background-size: 600% 600%;
+    -webkit-animation: bgscroll 19s ease infinite;
+    -moz-animation: bgscroll 19s ease infinite;
+    -o-animation: bgscroll 19s ease infinite;
+    animation: bgscroll 19s ease infinite;
+}
+@-webkit-keyframes bgscroll {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@-moz-keyframes bgscroll {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@-o-keyframes bgscroll {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
+@keyframes bgscroll {
+    0%{background-position:0% 32%}
+    50%{background-position:100% 69%}
+    100%{background-position:0% 32%}
+}
